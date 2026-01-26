@@ -17,6 +17,17 @@ const articles = [
     tags: ["Distributed Systems", "Microservices", "System Design"],
     cover: "/articles/scalling_part_1_article_cover.png",
   },
+  {
+    id: 2,
+    title: "What did I learn from reading these 4 books?",
+    description:
+      "Key insights and lessons learned from reading four impactful books. Exploring ideas that shaped my thinking and how to apply them in daily life and career.",
+    url: "https://medium.com/@andreferreira.junior235/what-did-i-learn-from-reading-these-4-books-f2223ec46c02",
+    date: "Jan 2026",
+    readTime: "6 min read",
+    cover: "/articles/books_article_cover.png",
+    tags: ["Books", "Learning", "Personal Growth"],
+  },
 ];
 
 export default function Articles() {
